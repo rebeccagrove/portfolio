@@ -48,17 +48,17 @@
 }
 
 .header {
-  height: 40vh;
+  height: 50vh;
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   font-family: "Montserrat", sans-serif;
   font-size: 1.8em;
   /* The typing effect */
   /* The typewriter cursor effect */
 }
-.header__typewriter h1 {
+.header .intro__typewriter {
   overflow: hidden;
   /* Ensures the content is not revealed until the animation */
   border-right: 0.15em solid orange;
@@ -90,4 +90,10 @@
 
 .header span {
   font-family: "Indie Flower", cursive;
+}
+
+#see-my-work {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  padding: 50px;
 }
