@@ -19,7 +19,7 @@
   color: black;
   font-family: "Indie Flower", cursive;
   font-weight: bold;
-  font-size: 1.8em;
+  font-size: 2em;
 }
 .navigation__logo a:hover {
   transform: scale(1.1);
@@ -37,7 +37,7 @@
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  font-size: 1.25em;
+  font-size: 1.5em;
   color: black;
 }
 .navigation__links a:hover {
@@ -93,7 +93,42 @@
 }
 
 #see-my-work {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
   font-family: "Montserrat", sans-serif;
-  padding: 50px;
+}
+
+i {
+  font-size: 2.3em;
+  margin: 10px;
+  position: relative;
+  bottom: -100px;
+  right: 110px;
+  opacity: 0.6;
+}
+
+i:hover {
+  color: white;
+  transform: scale(1.1);
+  transition: all ease 500ms;
+}
+
+#about-me {
+  height: 40vh;
+  width: 40%;
+  margin: 20px;
+  padding: 10px;
+  font-size: 1.2em;
+  font-family: "Montserrat", sans-serif;
+  border: 1px solid black;
+  border-radius: 30px;
+  text-align: left;
+}
+
+#about-me h1 {
+  padding: 10px;
+  text-align: left;
+  font-size: 1.5em;
+  font-family: "Indie Flower", cursive;
 }

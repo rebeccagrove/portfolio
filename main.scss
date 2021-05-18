@@ -24,7 +24,7 @@ $font-display: "Indie Flower", cursive;
         color: black; 
         font-family: $font-display;
         font-weight: bold;
-        font-size: 1.8em;
+        font-size: 2em;
     }
 
     &__logo a:hover {
@@ -51,7 +51,7 @@ $font-display: "Indie Flower", cursive;
         text-decoration: none;
         font-family: $font-body;
         font-weight: bold;
-        font-size: 1.25em;
+        font-size: 1.5em;
         color: black;
     }
 
@@ -103,14 +103,47 @@ $font-display: "Indie Flower", cursive;
     }
 }
 
-
-
 .header span {
   font-family: $font-display;
 }
 
 #see-my-work {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
     font-family: $font-body;
-    padding: 50px;
+}
+
+i {
+    font-size: 2.3em;
+    margin: 10px;
+    position: relative;
+    bottom: -100px;
+    right: 110px;
+    opacity: 0.6;
+}
+
+i:hover {
+    color: white;
+    transform: scale(1.1);
+    transition: all ease 500ms;
+}
+
+#about-me {
+    height: 40vh;
+    width: 40%;
+    margin: 20px;
+    padding: 10px;
+    font-size: 1.2em;
+    font-family: $font-body;
+    border: 1px solid black;
+    border-radius: 30px;
+    text-align: left;
+}
+
+#about-me h1 {
+ padding:10px;
+ text-align: left;
+ font-size: 1.5em;
+ font-family: $font-display;
 }
