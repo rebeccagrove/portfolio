@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat:wght@300&display=swap');
+
+$font-body: "Montserrat", sans-serif;
+$font-display: "Indie Flower", cursive;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navigation {
+    height: 10vh;
+    padding: 20px;
+    border: 2px solid black;
+
+    &__logo {
+        width: 30%;
+        position: absolute;
+        top: 20px;
+    }
+
+    &__logo a {
+        text-decoration: none;
+        color: black; 
+        font-family: $font-display;
+        font-weight: bold;
+        font-size: 1.6em;
+    }
+
+    &__logo a:hover {
+        transform: scale(1.1);
+        transition: all ease 600ms;
+        color: #978DB2;
+    }
+
+    &__links {
+        position: absolute;
+        right: 0;
+        padding: 5px 50px;
+    }
+
+    &__links a {
+        padding: 20px;
+        text-decoration: none;
+        font-family: $font-body;
+        font-weight: bold;
+        font-size: 1.25em;
+        color: black;
+    }
+
+    &__links a:hover {
+        color: white;
+        transform: scale(1.1);
+        transition: all ease 600ms;
+    }
+}
