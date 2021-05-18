@@ -24,7 +24,8 @@
 .navigation__logo a:hover {
   transform: scale(1.1);
   transition: all ease 600ms;
-  color: #978DB2;
+  color: white;
+  text-shadow: 0 2px 1px #747474, -1px 3px 1px #332A65, -2px 5px 1px #534678, -3px 7px 1px #796590, -4px 9px 1px #84759D, -5px 11px 1px #6E648B, -6px 13px 1px #C1ADCA;
 }
 .navigation__links {
   position: absolute;
@@ -43,4 +44,5 @@
   color: white;
   transform: scale(1.1);
   transition: all ease 600ms;
+  text-shadow: 0 2px 1px #747474, -1px 3px 1px #332A65, -2px 5px 1px #534678, -3px 7px 1px #796590, -4px 9px 1px #84759D, -5px 11px 1px #6E648B, -6px 13px 1px #C1ADCA, -7px 15px 1px #E7CBE3;
 }
