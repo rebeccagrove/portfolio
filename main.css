@@ -8,7 +8,8 @@
 .navigation {
   height: 10vh;
   padding: 20px;
-  position: sticky;
+  background-color: #EAD2E4;
+  box-shadow: 0 5px 5px -5px #EAD2E4;
 }
 .navigation__logo {
   width: 30%;
@@ -17,16 +18,11 @@
 }
 .navigation__logo a {
   text-decoration: none;
+  text-decoration: overline;
   color: black;
   font-family: "Indie Flower", cursive;
   font-weight: bold;
   font-size: 2em;
-}
-.navigation__logo a:hover {
-  transform: scale(1.1);
-  transition: all ease 600ms;
-  color: white;
-  text-shadow: 0 2px 1px #747474, -1px 3px 1px #332A65, -2px 5px 1px #534678, -3px 7px 1px #796590, -4px 9px 1px #84759D, -5px 11px 1px #6E648B, -6px 13px 1px #C1ADCA;
 }
 .navigation__links {
   position: absolute;
@@ -100,15 +96,12 @@
   padding: 10px;
   font-size: 1.2em;
   font-family: "Montserrat", sans-serif;
-  border: 1px solid black;
-  border-radius: 30px;
   text-align: left;
 }
 
 #about-me h1 {
   font-size: 1.5em;
   font-family: "Indie Flower", cursive;
-  padding: 10px;
 }
 
 .line-1 {
@@ -179,4 +172,60 @@
 .line-2__project p {
   font-family: "Montserrat", sans-serif;
   font-size: 1.2em;
+}
+
+.outro-container {
+  height: 30vh;
+  margin: 20px;
+  margin-top: 200px;
+  font-size: 1.2em;
+  text-align: left;
+}
+
+.contact {
+  padding: 10px;
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+  font-size: 1.5em;
+  text-decoration: overline;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  margin-top: 20px;
+  padding: 20px;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+}
+.social__heading:hover {
+  color: white;
+  transform: scale(1.1);
+  transition: all ease 600ms;
+}
+.social__heading a, .social a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  padding: 20px;
+  background-color: #938DB1;
+  box-shadow: 0 5px 5px -5px #938DB1;
+}
+.footer__footer-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  color: black;
+}
+.footer__footer-logo {
+  font-family: "Indie Flower", cursive;
+  font-weight: bolder;
+  font-size: 20px;
 }
