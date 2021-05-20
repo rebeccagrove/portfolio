@@ -8,6 +8,7 @@
 .navigation {
   height: 10vh;
   padding: 20px;
+  position: sticky;
 }
 .navigation__logo {
   width: 30%;
@@ -92,31 +93,9 @@
   font-family: "Indie Flower", cursive;
 }
 
-#see-my-work {
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  font-family: "Montserrat", sans-serif;
-}
-
-i {
-  font-size: 2.3em;
-  margin: 10px;
-  position: relative;
-  bottom: -100px;
-  right: 110px;
-  opacity: 0.6;
-}
-
-i:hover {
-  color: white;
-  transform: scale(1.1);
-  transition: all ease 500ms;
-}
-
 #about-me {
   height: 40vh;
-  width: 40%;
+  width: 50%;
   margin: 20px;
   padding: 10px;
   font-size: 1.2em;
@@ -127,8 +106,77 @@ i:hover {
 }
 
 #about-me h1 {
-  padding: 10px;
-  text-align: left;
   font-size: 1.5em;
   font-family: "Indie Flower", cursive;
+  padding: 10px;
+}
+
+.line-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px;
+  margin-top: 200px;
+  height: 40vh;
+}
+.line-1__project {
+  height: 350px;
+  width: 350px;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 40px;
+  border-radius: 30px;
+  opacity: 0.6;
+  transition: transform 0.2s;
+}
+.line-1__project:hover {
+  opacity: 1;
+  color: black;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.line-1__project h2 {
+  font-size: 1.5em;
+  font-family: "Indie Flower", cursive;
+  padding: 10px;
+  color: black;
+}
+.line-1__project p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2em;
+}
+
+.line-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px;
+  margin-top: 80px;
+  height: 40vh;
+}
+.line-2__project {
+  height: 350px;
+  width: 350px;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 40px;
+  border-radius: 30px;
+  opacity: 0.6;
+  transition: transform 0.2s;
+}
+.line-2__project:hover {
+  opacity: 1;
+  color: black;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.line-2__project h2 {
+  font-size: 1.5em;
+  font-family: "Indie Flower", cursive;
+  padding: 10px;
+  color: black;
+}
+.line-2__project p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2em;
 }

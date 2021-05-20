@@ -9,9 +9,12 @@ $font-display: "Indie Flower", cursive;
     box-sizing: border-box;
 }
 
+// NAVIGATION BAR //
+
 .navigation {
     height: 10vh;
     padding: 20px;
+    position: sticky;
 
     &__logo {
         width: 30%;
@@ -70,6 +73,8 @@ $font-display: "Indie Flower", cursive;
     }
 }
 
+//TYPEWRITER EFFECT //
+
 .header {
     height: 50vh;
     width: 100%;
@@ -107,31 +112,11 @@ $font-display: "Indie Flower", cursive;
   font-family: $font-display;
 }
 
-#see-my-work {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    font-family: $font-body;
-}
-
-i {
-    font-size: 2.3em;
-    margin: 10px;
-    position: relative;
-    bottom: -100px;
-    right: 110px;
-    opacity: 0.6;
-}
-
-i:hover {
-    color: white;
-    transform: scale(1.1);
-    transition: all ease 500ms;
-}
+//ABOUT ME//
 
 #about-me {
     height: 40vh;
-    width: 40%;
+    width: 50%;
     margin: 20px;
     padding: 10px;
     font-size: 1.2em;
@@ -142,8 +127,91 @@ i:hover {
 }
 
 #about-me h1 {
- padding:10px;
- text-align: left;
  font-size: 1.5em;
  font-family: $font-display;
+ padding: 10px;
 }
+
+//PROJECTS SECTION (FIRST LINE) //
+
+.line-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+    margin-top: 200px;
+    height: 40vh;
+
+    &__project {
+        height: 350px;
+        width: 350px;
+        border: 1px solid black;
+        padding: 10px;
+        margin: 40px;
+        border-radius: 30px;
+        opacity: 0.6;
+        transition: transform .2s;
+    }
+
+    &__project:hover {
+        opacity: 1;
+        color: black;
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+
+    &__project h2 {
+        font-size: 1.5em;
+        font-family: $font-display;
+        padding: 10px;
+        color: black;
+    }
+
+    &__project p {
+        font-family: $font-body;
+        font-size: 1.2em;
+    }
+}
+
+//PROJECTS SECTION (SECOND LINE)//
+
+.line-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+    margin-top: 80px;
+    height: 40vh;
+
+    &__project {
+        height: 350px;
+        width: 350px;
+        border: 1px solid black;
+        padding: 10px;
+        margin: 40px;
+        border-radius: 30px;
+        opacity: 0.6;
+        transition: transform .2s;
+    }
+
+    &__project:hover {
+        opacity: 1;
+        color: black;
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+
+    &__project h2 {
+        font-size: 1.5em;
+        font-family: $font-display;
+        padding: 10px;
+        color: black;
+    }
+
+    &__project p {
+        font-family: $font-body;
+        font-size: 1.2em;
+    }
+}
+
+
