@@ -1,0 +1,79 @@
+//TYPEWRITER EFFECT //
+
+.header {
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $font-body;
+    font-size: 1.8em;
+    text-shadow: 1px 1px 1px #84759D;
+
+.intro__typewriter {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    white-space: nowrap; /* Keeps the content on a single line */
+    letter-spacing: .05em; /* Adjust as needed */
+    animation: 
+    typing 5.5s steps(40, end),
+    blink-caret .80s step-end infinite;
+          }
+          
+    /* The typing effect */
+    @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+    }
+          
+    /* The typewriter cursor effect */
+    @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+    }
+}
+
+.header span {
+  font-family: $font-display;
+}
+
+// CONTACT SECTION //
+
+.outro-container {
+    height: 30vh;
+    margin: 20px;
+    margin-top: 150px;
+    font-size: 1.2em;
+    text-align: left;
+}
+
+.contact {
+    padding: 10px;
+    text-align: center;
+    font-family: $font-display;
+    font-size: 1.5em;
+    text-decoration: overline;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    margin-top: 20px;
+    padding: 20px;
+    font-family: $font-body;
+    cursor: pointer;
+
+    &__heading:hover {
+        color: white;
+        transform: scale(1.1);
+        transition: all ease 600ms;
+    }
+
+    &__heading a, a:visited {
+        text-decoration: none;
+        color: black;
+    }
+}
