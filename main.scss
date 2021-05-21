@@ -14,13 +14,13 @@ $font-display: "Indie Flower", cursive;
 .navigation {
     height: 10vh;
     padding: 20px;
-    background-color: #EAD2E4;
-    box-shadow: 0 5px 5px -5px #EAD2E4;
+    border-bottom: 1px solid black;
 
     &__logo {
         width: 30%;
         position: absolute;
         top: 20px;
+        text-shadow: 1px 1px 4px #332A65;
     }
 
     &__logo a {
@@ -65,13 +65,14 @@ $font-display: "Indie Flower", cursive;
 //TYPEWRITER EFFECT //
 
 .header {
-    height: 50vh;
+    height: 30vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: $font-body;
     font-size: 1.8em;
+    text-shadow: 1px 1px 1px #84759D;
 
 .intro__typewriter {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -103,19 +104,25 @@ $font-display: "Indie Flower", cursive;
 
 //ABOUT ME//
 
-#about-me {
-    height: 40vh;
-    width: 50%;
-    margin: 20px;
-    padding: 10px;
-    font-size: 1.2em;
-    font-family: $font-body;
-    text-align: left;
-}
+.aboutMe {
+    height: 30vh;
+    width: 65%;
+    margin: auto;
 
-#about-me h1 {
- font-size: 1.5em;
- font-family: $font-display;
+
+    &__heading {
+        text-align: center;
+        padding: 20px;
+        font-family: $font-display;
+        font-size: 1.5em;
+        text-decoration: overline;
+    }
+
+    &__text {
+        font-family: $font-body;
+        font-size: 1.2em;
+        
+    }
 }
 
 //PROJECTS SECTION (FIRST LINE) //
@@ -131,12 +138,13 @@ $font-display: "Indie Flower", cursive;
     &__project {
         height: 350px;
         width: 350px;
-        border: 1px solid black;
         padding: 10px;
         margin: 40px;
         border-radius: 30px;
         opacity: 0.6;
         transition: transform .2s;
+        background-color: #DAC9DD;
+        box-shadow: 0 0 10px 10px #332A65;;
     }
 
     &__project:hover {
@@ -151,6 +159,7 @@ $font-display: "Indie Flower", cursive;
         font-family: $font-display;
         padding: 10px;
         color: black;
+        text-shadow: 2px 2px 8px #332A65;
     }
 
     &__project p {
@@ -172,12 +181,13 @@ $font-display: "Indie Flower", cursive;
     &__project {
         height: 350px;
         width: 350px;
-        border: 1px solid black;
         padding: 10px;
         margin: 40px;
         border-radius: 30px;
         opacity: 0.6;
         transition: transform .2s;
+        background-color: #DAC9DD;
+        box-shadow: 0 0 10px 10px #332A65;
     }
 
     &__project:hover {
@@ -192,6 +202,8 @@ $font-display: "Indie Flower", cursive;
         font-family: $font-display;
         padding: 10px;
         color: black;
+        text-shadow: 2px 2px 8px #332A65;
+        
     }
 
     &__project p {
@@ -205,7 +217,7 @@ $font-display: "Indie Flower", cursive;
 .outro-container {
     height: 30vh;
     margin: 20px;
-    margin-top: 200px;
+    margin-top: 150px;
     font-size: 1.2em;
     text-align: left;
 }
@@ -246,8 +258,7 @@ $font-display: "Indie Flower", cursive;
     align-items: center;
     height: 10vh;
     padding: 20px;
-    background-color: #938DB1;
-    box-shadow: 0 5px 5px -5px #938DB1;
+    border-top: 1px solid black;
 
     &__footer-text {
         font-family: $font-body;
@@ -259,5 +270,6 @@ $font-display: "Indie Flower", cursive;
         font-family: $font-display;
         font-weight: bolder;
         font-size: 20px;
+        text-decoration: overline;
     }
 }

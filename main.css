@@ -8,13 +8,13 @@
 .navigation {
   height: 10vh;
   padding: 20px;
-  background-color: #EAD2E4;
-  box-shadow: 0 5px 5px -5px #EAD2E4;
+  border-bottom: 1px solid black;
 }
 .navigation__logo {
   width: 30%;
   position: absolute;
   top: 20px;
+  text-shadow: 1px 1px 4px #332A65;
 }
 .navigation__logo a {
   text-decoration: none;
@@ -45,13 +45,14 @@
 }
 
 .header {
-  height: 50vh;
+  height: 30vh;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: "Montserrat", sans-serif;
   font-size: 1.8em;
+  text-shadow: 1px 1px 1px #84759D;
   /* The typing effect */
   /* The typewriter cursor effect */
 }
@@ -89,19 +90,21 @@
   font-family: "Indie Flower", cursive;
 }
 
-#about-me {
-  height: 40vh;
-  width: 50%;
-  margin: 20px;
-  padding: 10px;
-  font-size: 1.2em;
-  font-family: "Montserrat", sans-serif;
-  text-align: left;
+.aboutMe {
+  height: 30vh;
+  width: 65%;
+  margin: auto;
 }
-
-#about-me h1 {
-  font-size: 1.5em;
+.aboutMe__heading {
+  text-align: center;
+  padding: 20px;
   font-family: "Indie Flower", cursive;
+  font-size: 1.5em;
+  text-decoration: overline;
+}
+.aboutMe__text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2em;
 }
 
 .line-1 {
@@ -115,12 +118,13 @@
 .line-1__project {
   height: 350px;
   width: 350px;
-  border: 1px solid black;
   padding: 10px;
   margin: 40px;
   border-radius: 30px;
   opacity: 0.6;
   transition: transform 0.2s;
+  background-color: #DAC9DD;
+  box-shadow: 0 0 10px 10px #332A65;
 }
 .line-1__project:hover {
   opacity: 1;
@@ -133,6 +137,7 @@
   font-family: "Indie Flower", cursive;
   padding: 10px;
   color: black;
+  text-shadow: 2px 2px 8px #332A65;
 }
 .line-1__project p {
   font-family: "Montserrat", sans-serif;
@@ -150,12 +155,13 @@
 .line-2__project {
   height: 350px;
   width: 350px;
-  border: 1px solid black;
   padding: 10px;
   margin: 40px;
   border-radius: 30px;
   opacity: 0.6;
   transition: transform 0.2s;
+  background-color: #DAC9DD;
+  box-shadow: 0 0 10px 10px #332A65;
 }
 .line-2__project:hover {
   opacity: 1;
@@ -168,6 +174,7 @@
   font-family: "Indie Flower", cursive;
   padding: 10px;
   color: black;
+  text-shadow: 2px 2px 8px #332A65;
 }
 .line-2__project p {
   font-family: "Montserrat", sans-serif;
@@ -177,7 +184,7 @@
 .outro-container {
   height: 30vh;
   margin: 20px;
-  margin-top: 200px;
+  margin-top: 150px;
   font-size: 1.2em;
   text-align: left;
 }
@@ -216,8 +223,7 @@
   align-items: center;
   height: 10vh;
   padding: 20px;
-  background-color: #938DB1;
-  box-shadow: 0 5px 5px -5px #938DB1;
+  border-top: 1px solid black;
 }
 .footer__footer-text {
   font-family: "Montserrat", sans-serif;
@@ -228,4 +234,5 @@
   font-family: "Indie Flower", cursive;
   font-weight: bolder;
   font-size: 20px;
+  text-decoration: overline;
 }
