@@ -1,0 +1,137 @@
+// NAVIGATION BAR //
+
+.navigation {
+    height: 10vh;
+    padding: 20px;
+    border-bottom: 1px solid black;
+
+    &__logo {
+        width: 30%;
+        position: absolute;
+        top: 20px;
+        text-shadow: 1px 1px 4px #332A65;
+    }
+
+    &__logo a {
+        text-decoration: none;
+        text-decoration: overline;
+        color: black; 
+        font-family: $font-display;
+        font-weight: bold;
+        font-size: 2em;
+    }
+
+    &__links {
+        position: absolute;
+        right: 0;
+        padding: 5px 50px;
+    }
+
+    &__links a {
+        padding: 20px;
+        text-decoration: none;
+        font-family: $font-body;
+        font-weight: bold;
+        font-size: 1.5em;
+        color: black;
+    }
+
+    &__links a:hover {
+        color: white;
+        transform: scale(1.1);
+        transition: all ease 600ms;
+        text-shadow: 0 2px 1px #747474, 
+        -1px 3px 1px #332A65, 
+        -2px 5px 1px #534678, 
+        -3px 7px 1px #796590,
+        -4px 9px 1px #84759D,
+        -5px 11px 1px #6E648B,
+        -6px 13px 1px #C1ADCA,
+        -7px 15px 1px #E7CBE3, 
+    }
+}
+
+//ABOUT ME//
+
+.aboutMe {
+    height: 30vh;
+    width: 65%;
+    margin: auto;
+
+
+    &__heading {
+        text-align: center;
+        padding: 20px;
+        font-family: $font-display;
+        font-size: 1.5em;
+        text-decoration: overline;
+    }
+
+    &__text {
+        font-family: $font-body;
+        font-size: 1.2em;
+        
+    }
+}
+
+// CONTACT SECTION //
+
+.outro-container {
+    height: 30vh;
+    margin: 20px;
+    margin-top: 150px;
+    font-size: 1.2em;
+    text-align: left;
+}
+
+.contact {
+    padding: 10px;
+    text-align: center;
+    font-family: $font-display;
+    font-size: 1.5em;
+    text-decoration: overline;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    margin-top: 20px;
+    padding: 20px;
+    font-family: $font-body;
+    cursor: pointer;
+
+    &__heading:hover {
+        color: white;
+        transform: scale(1.1);
+        transition: all ease 600ms;
+    }
+
+    &__heading a, a:visited {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+    padding: 20px;
+    border-top: 1px solid black;
+
+    &__footer-text {
+        font-family: $font-body;
+        font-size: 1em;
+        color: black;
+    }
+
+    &__footer-logo {
+        font-family: $font-display;
+        font-weight: bolder;
+        font-size: 20px;
+        text-decoration: overline;
+    }
+}

@@ -1,0 +1,126 @@
+//TYPEWRITER EFFECT //
+
+.header {
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $font-body;
+    font-size: 1.8em;
+    text-shadow: 1px 1px 1px #84759D;
+
+.intro__typewriter {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    white-space: nowrap; /* Keeps the content on a single line */
+    letter-spacing: .05em; /* Adjust as needed */
+    animation: 
+    typing 5.5s steps(40, end),
+    blink-caret .80s step-end infinite;
+          }
+          
+    /* The typing effect */
+    @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+    }
+          
+    /* The typewriter cursor effect */
+    @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+    }
+}
+
+.header span {
+  font-family: $font-display;
+}
+
+//PROJECTS SECTION (FIRST LINE) //
+
+.line-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+    margin-top: 200px;
+    height: 40vh;
+
+    &__project {
+        height: 350px;
+        width: 350px;
+        padding: 10px;
+        margin: 40px;
+        border-radius: 30px;
+        opacity: 0.6;
+        transition: transform .2s;
+        background-color: #DAC9DD;
+        box-shadow: 0 0 10px 10px #332A65;;
+    }
+
+    &__project:hover {
+        opacity: 1;
+        color: black;
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+
+    &__project h2 {
+        font-size: 1.5em;
+        font-family: $font-display;
+        padding: 10px;
+        color: black;
+        text-shadow: 2px 2px 8px #332A65;
+    }
+
+    &__project p {
+        font-family: $font-body;
+        font-size: 1.2em;
+    }
+}
+
+//PROJECTS SECTION (SECOND LINE)//
+
+.line-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+    margin-top: 80px;
+    height: 40vh;
+
+    &__project {
+        height: 350px;
+        width: 350px;
+        padding: 10px;
+        margin: 40px;
+        border-radius: 30px;
+        opacity: 0.6;
+        transition: transform .2s;
+        background-color: #DAC9DD;
+        box-shadow: 0 0 10px 10px #332A65;
+    }
+
+    &__project:hover {
+        opacity: 1;
+        color: black;
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+
+    &__project h2 {
+        font-size: 1.5em;
+        font-family: $font-display;
+        padding: 10px;
+        color: black;
+        text-shadow: 2px 2px 8px #332A65;
+        
+    }
+
+    &__project p {
+        font-family: $font-body;
+        font-size: 1.2em;
+    }
+}

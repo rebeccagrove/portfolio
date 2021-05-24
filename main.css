@@ -5,45 +5,6 @@
   box-sizing: border-box;
 }
 
-.navigation {
-  height: 10vh;
-  padding: 20px;
-  border-bottom: 1px solid black;
-}
-.navigation__logo {
-  width: 30%;
-  position: absolute;
-  top: 20px;
-  text-shadow: 1px 1px 4px #332A65;
-}
-.navigation__logo a {
-  text-decoration: none;
-  text-decoration: overline;
-  color: black;
-  font-family: "Indie Flower", cursive;
-  font-weight: bold;
-  font-size: 2em;
-}
-.navigation__links {
-  position: absolute;
-  right: 0;
-  padding: 5px 50px;
-}
-.navigation__links a {
-  padding: 20px;
-  text-decoration: none;
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-  font-size: 1.5em;
-  color: black;
-}
-.navigation__links a:hover {
-  color: white;
-  transform: scale(1.1);
-  transition: all ease 600ms;
-  text-shadow: 0 2px 1px #747474, -1px 3px 1px #332A65, -2px 5px 1px #534678, -3px 7px 1px #796590, -4px 9px 1px #84759D, -5px 11px 1px #6E648B, -6px 13px 1px #C1ADCA, -7px 15px 1px #E7CBE3;
-}
-
 .header {
   height: 30vh;
   width: 100%;
@@ -88,23 +49,6 @@
 
 .header span {
   font-family: "Indie Flower", cursive;
-}
-
-.aboutMe {
-  height: 30vh;
-  width: 65%;
-  margin: auto;
-}
-.aboutMe__heading {
-  text-align: center;
-  padding: 20px;
-  font-family: "Indie Flower", cursive;
-  font-size: 1.5em;
-  text-decoration: overline;
-}
-.aboutMe__text {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.2em;
 }
 
 .line-1 {
@@ -181,6 +125,62 @@
   font-size: 1.2em;
 }
 
+.navigation {
+  height: 10vh;
+  padding: 20px;
+  border-bottom: 1px solid black;
+}
+.navigation__logo {
+  width: 30%;
+  position: absolute;
+  top: 20px;
+  text-shadow: 1px 1px 4px #332A65;
+}
+.navigation__logo a {
+  text-decoration: none;
+  text-decoration: overline;
+  color: black;
+  font-family: "Indie Flower", cursive;
+  font-weight: bold;
+  font-size: 2em;
+}
+.navigation__links {
+  position: absolute;
+  right: 0;
+  padding: 5px 50px;
+}
+.navigation__links a {
+  padding: 20px;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: black;
+}
+.navigation__links a:hover {
+  color: white;
+  transform: scale(1.1);
+  transition: all ease 600ms;
+  text-shadow: 0 2px 1px #747474, -1px 3px 1px #332A65, -2px 5px 1px #534678, -3px 7px 1px #796590, -4px 9px 1px #84759D, -5px 11px 1px #6E648B, -6px 13px 1px #C1ADCA, -7px 15px 1px #E7CBE3;
+}
+
+.aboutMe {
+  height: 30vh;
+  width: 65%;
+  margin: auto;
+}
+.aboutMe__heading {
+  text-align: center;
+  padding: 20px;
+  font-family: "Indie Flower", cursive;
+  font-size: 1.5em;
+  text-decoration: overline;
+}
+.aboutMe__text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2em;
+}
+
 .outro-container {
   height: 30vh;
   margin: 20px;
@@ -221,7 +221,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 10vh;
+  height: 20px;
   padding: 20px;
   border-top: 1px solid black;
 }
