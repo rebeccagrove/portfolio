@@ -1,0 +1,68 @@
+//NAVIGATION//
+
+@media screen and (max-width:768px) {
+    .navigation {
+            width: 100%; 
+            font-size: 15px;
+            &__logo {
+                display: none;
+            }
+    }
+}
+
+//WELCOME TO MY PORTFOLIO//
+@media screen and (max-width:768px) {
+    .header {
+        font-size: 15px;
+    }
+}
+
+//ABOUT ME//
+@media screen and (max-width:768px) {
+    .AboutMe {
+        font-size: 15px;
+        width: 100%;
+    }
+}
+
+//BOXES//
+@media screen and (max-width:768px) {
+    .line-1 {
+        &__project {
+            width: 100%; 
+            h2 {
+                font-size: 10px;
+            }
+            p {
+                font-size: 10px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .line-2 {
+        &__project {
+            width: 100%; 
+            h2 {
+                font-size: 10px;
+            }
+            p {
+                font-size: 10px;
+            }
+        }
+    }
+}
+
+//CONTACT SECTION//
+
+@media screen and (max-width:768px) {
+    .outro-container {
+        width:100%;
+        font-size: 10px;
+    }
+
+    i {
+        display: none;
+    }
+}
