@@ -253,9 +253,9 @@
   }
 }
 @media screen and (max-width: 768px) {
-  .AboutMe {
+  .aboutMe {
     font-size: 15px;
-    width: 100%;
+    width: 90%;
   }
 }
 @media screen and (max-width: 768px) {
@@ -269,24 +269,19 @@
     font-size: 10px;
   }
 }
-@media screen and (max-width: 768px) {
-  .line-2__project {
-    width: 100%;
-  }
-  .line-2__project h2 {
-    font-size: 10px;
-  }
-  .line-2__project p {
-    font-size: 10px;
-  }
+.line-2__project {
+  width: 80%;
 }
+.line-2__project h2 {
+  font-size: 10px;
+}
+.line-2__project p {
+  font-size: 10px;
+}
+
 @media screen and (max-width: 768px) {
   .outro-container {
-    width: 100%;
+    width: 90%;
     font-size: 10px;
-  }
-
-  i {
-    display: none;
   }
 }
